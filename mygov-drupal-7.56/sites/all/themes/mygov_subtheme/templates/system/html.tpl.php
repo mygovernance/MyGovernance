@@ -72,8 +72,24 @@ display: none;
 .node-teaser .comment-add {
 display: none;
 }
-  
-  
+.page-header{font-weight:700;letter-spacing:-.5px;line-height:1.1em;margin:10px 0 10px;padding:0;border-bottom:0}
+.field-name-field-thumbnail{display: table;margin: 0 auto;} .node-container-header .facebook-box{margin-bottom: 10px;padding-top: 0;}
+.comment-container{}  
+.profile-pic.user-picture.img{} .user-picture{}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.field-name-body{
+    color:#000000;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    margin-width:0;
+    margin-height:0;
+}
   </style>
   <?php print $scripts; ?>
 </head>
