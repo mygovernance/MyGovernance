@@ -90,6 +90,8 @@ img {
     margin-width:0;
     margin-height:0;
 }
+#block-views-most-liked-block,#block-views-most-liked-block-1{border:none;padding: 20px 20px;margin-top: 25px;background: #f9f9f9;border: 1px solid #e7e7e7; padding: 20px 15px;padding-bottom: 10px;}
+#block-views-most-liked-block .row {padding-bottom: 0;}
   </style>
   <?php print $scripts; ?>
 </head>
