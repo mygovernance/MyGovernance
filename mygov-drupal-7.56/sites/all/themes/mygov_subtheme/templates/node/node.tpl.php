@@ -110,7 +110,8 @@
   ?>
    <footer>
      <?php print $field_tags; ?>
-     <?php print $links; ?>
+     <?php //print $links; ?>
+    <div class="comment-count"><?php print 'Total Comments: '.$comment_count ?></div>
   </footer>
   <?php endif; ?>
   <?php print render($content['comments']); ?>

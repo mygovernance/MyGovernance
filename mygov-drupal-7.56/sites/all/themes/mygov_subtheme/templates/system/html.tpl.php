@@ -65,6 +65,16 @@
   <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
+  <style>
+  .node-teaser .comment_forbidden {
+display: none;
+}
+.node-teaser .comment-add {
+display: none;
+}
+  
+  
+  </style>
   <?php print $scripts; ?>
 </head>
 <body<?php print $body_attributes; ?>>

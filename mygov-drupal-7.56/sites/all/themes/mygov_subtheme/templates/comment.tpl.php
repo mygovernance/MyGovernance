@@ -76,6 +76,7 @@
   </div>
 
   <div class="content"<?php print $content_attributes; ?>>
+  <div class="author"> <?php print $author; ?> </div>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['links']);
@@ -89,8 +90,4 @@
   </div>
 
   <?php print render($content['links']) ?>
- <div class="submitted">
-    <?php //print $permalink; ?>
-    <?php print $submitted; ?>
-  </div>
 </div>
