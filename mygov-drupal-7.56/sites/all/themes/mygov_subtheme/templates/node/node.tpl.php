@@ -111,7 +111,9 @@
    <footer>
      <?php print $field_tags; ?>
      <?php //print $links; ?>
+     <?php if($node->type=='news'):?>
     <div class="comment-count"><?php print 'Total Comments: '.$comment_count ?></div>
+     <?php endif; ?>
   </footer>
   <?php endif; ?>
   <?php print render($content['comments']); ?>
