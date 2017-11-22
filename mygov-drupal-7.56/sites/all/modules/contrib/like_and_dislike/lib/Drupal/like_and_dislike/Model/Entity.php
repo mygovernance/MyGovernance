@@ -64,6 +64,7 @@ class Entity {
   }
 
   public function userCanVote($account = NULL) {
+	  $access = FALSE;
     if ($this->entity_type == 'node') {
       $access = user_access('like/dislike any ' . $this->bundle . ' nodes', $account);
     } else if ($this->entity_type == 'comment') {
@@ -73,6 +74,7 @@ class Entity {
   }
 
   public function userCanViewVotes($account = NULL) {
+	  $access = FALSE;
     if ($this->entity_type == 'node') {
       $access = user_access('view likes/dislikes from every ' . $this->bundle . ' nodes', $account);
     } else if ($this->entity_type == 'comment') {
