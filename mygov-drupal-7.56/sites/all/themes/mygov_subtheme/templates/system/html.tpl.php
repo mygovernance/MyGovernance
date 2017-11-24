@@ -72,8 +72,7 @@ display: none;
 .node-teaser .comment-add {
 display: none;
 }
-.page-header{font-weight:700;letter-spacing:-.5px;line-height:1.1em;margin:10px 0 10px;padding:0;border-bottom:0}
-.field-name-field-thumbnail{display: table;margin: 0 auto;} .node-container-header .facebook-box{margin-bottom: 10px;padding-top: 0;}
+.page-header{font-weight:700;letter-spacing:-.5px;line-height:1.1em;margin:10px 0 10px;padding:0;border-bottom:0} .node-container-header .facebook-box{margin-bottom: 10px;padding-top: 0;}
 .comment-container{}  
 .profile-pic.user-picture.img{} .user-picture{}
 img {
@@ -92,6 +91,25 @@ img {
 }
 #block-views-most-liked-block,#block-views-most-liked-block-1{border:none;padding: 20px 20px;margin-top: 25px;background: #f9f9f9;border: 1px solid #e7e7e7; padding: 20px 15px;padding-bottom: 10px;}
 #block-views-most-liked-block .row {padding-bottom: 0;}
+.field.field-name-field-thumbnail.field-type-image.field-label-hidden{
+	margin-bottom: 8px!important;
+	}
+	.field.field-name-field-thumbnail.field-type-image.field-label-hidden.field-items.field-item even{
+		display: table;
+        margin: auto;
+		}
+.like-and-dislike-container.like{
+	}
+.like-and-dislike-container.dislike{
+	
+	} 
+	.comment-count{}
+	.comment-text{    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;}
+    .author{}
   </style>
   <?php print $scripts; ?>
 </head>

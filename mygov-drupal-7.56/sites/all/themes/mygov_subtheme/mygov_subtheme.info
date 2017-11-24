@@ -12,12 +12,16 @@ regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
+regions[featured]       = 'Featured'
+regions[content_top]    = 'Content Top'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
+regions[footer_bottom]  = 'Footer Bottom'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+regions[noscript]       = 'noscript'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
